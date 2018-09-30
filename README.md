@@ -30,9 +30,21 @@ It gets objects from email queue and send email.
 
 ![Nebula Architecture](https://i.imgur.com/QME60HB.jpg?1)
 
-## How to Install
+# How to Install
 
 ## Prerequisites
  1. Docker
  2. Java 8
  3. Postman
+
+## How to Install
+
+ 1. You should run `docker-compose up` command in cloned directory. After download and startup Docker containers execute following commands.
+ 2. `java -jar api.jar > /dev/null 2>&1 &``
+ 3. `java -jar reviewconsumer.jar > /dev/null 2>&1 &``
+ 4. `java -jar notification.jar > /dev/null 2>&1 &``
+
+After these you are ready to go. You can use below Postman Collection export for tryouts.
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6fc34eeabab2ca8d87da)
+
