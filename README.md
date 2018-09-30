@@ -1,5 +1,5 @@
 
-# nebula-api
+# The Nebula Project
 
 This project is developed for Malwarebytes Nebula project.
 
