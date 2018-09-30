@@ -49,5 +49,6 @@ After these you are ready to go. You can use below Postman Collection export for
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/6fc34eeabab2ca8d87da)
 
 ## Queries
-You can query inserted or updated reviews with `SELECT * FROM production.productreview WHERE productreviewid = :id`
+You can query inserted or updated reviews with:
+`SELECT * FROM production.productreview WHERE productreviewid = :id`
 
