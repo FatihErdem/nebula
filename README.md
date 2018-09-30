@@ -40,9 +40,9 @@ It gets objects from email queue and send email.
 ## How to Install
 
  1. You should run `docker-compose up` command in cloned directory. After download and startup Docker containers execute following commands.
- 2. `java -jar api.jar > /dev/null 2>&1 &``
- 3. `java -jar reviewconsumer.jar > /dev/null 2>&1 &``
- 4. `java -jar notification.jar > /dev/null 2>&1 &``
+ 2. `java -jar api.jar > /dev/null 2>&1 &`
+ 3. `java -jar reviewconsumer.jar > /dev/null 2>&1 &`
+ 4. `java -jar notification.jar > /dev/null 2>&1 &`
 
 After these you are ready to go. You can use below Postman Collection export for tryouts.
 
